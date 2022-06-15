@@ -1,0 +1,756 @@
+@import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+
+/*
+
+	[  N o t e s ! ! !  ]
+
+ Symbol X = None
+ Symbol 1 = Index Page
+ Symbol 2 = Projects Page
+ Symbol 3 = Contact Page
+ Symbol 4 = Murrotal Al-Qur'an Page
+ Symbol 5 = Games Page
+ And Etc .......1:0
+
+ */
+
+*{
+	margin: 0;
+	padding: 0;
+	 box-sizing: border-box;
+
+}
+
+
+
+body {
+	overflow-x: hidden;
+  min-height: 100vh;
+
+}
+
+
+
+
+
+
+
+
+/*Home NavBar Hover*/
+#index {
+	font-size: 30px;
+	font-weight: bold;
+	border-radius: 30px;
+  padding: 0px 10px 5px 10px;
+  font-family: 'Rancho', cursive;
+
+
+}
+
+/*Text Nav Dropdown Projects and Games in Homepage*/
+.family {
+  font-family: 'Rancho', cursive;
+}
+
+/*JS Parallax*/
+.parallax {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.parallax::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background: linear-gradient(to top, #038082,transparent);
+  z-index: 10;
+}
+
+.parallax img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  pointer-events: none;
+}
+
+
+.parallax #text {
+  position: absolute;
+  color: #094b65;
+  font-size: 10vw;
+  text-align: center;
+  line-height: 0.55em;
+  font-family: 'Rancho', cursive;
+
+
+}
+.parallax #text span{
+  font-size: 0.20em;
+  letter-spacing: 2px;
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+}
+
+#btn {
+  font-family: cursive;
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 30px;
+  background: #fff;
+  color: #094b65;
+  font-size: 1.2em;
+  font-weight: 500;
+  letter-spacing: 2px;
+  border-radius: 40px;
+  transform: translateY(100px);
+}
+
+.sec {
+  position: relative;
+  padding: 100px;
+background-image: linear-gradient(to bottom, #038184, #009797, #00ada9, #00c4ba, #00dbca, #00dad0, #00d8d6, #00d7db, #00bcd0, #00a2c1, #0287ad, #216e96);
+}
+
+
+.sec h1 {
+	text-align: center;
+  font-size: 40px;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.sec p {
+  font-size: 1em;
+  color: black;
+}
+
+
+
+
+
+/*Background Home Page*/
+.index {
+  background-image: url(img/home/underwater.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+
+
+/*Jumbotron on Home Page*/
+.jumbotron {
+	width: 100%;
+	color: black;
+	padding-bottom: 2rem;
+	margin-bottom: 0rem;
+
+}
+
+
+/*Text On My About*/
+#text-caveat {
+font-family: system-ui, 'Akaya Kanadaka', cursive, fangsong;
+font-size: 18.5px;
+}
+
+
+
+/*Bubbles Animation img */
+.bubbles img{
+  width: 50px;
+  animation: bubble 7s linear infinite;
+  bottom: -70px;
+}
+
+.bubbles {
+	width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+}
+
+
+@keyframes bubble {
+  0%{
+    transform: translateY(0);
+    opacity: 0;
+
+  }
+  50%{
+    opacity: 1;
+
+  }
+  70%{
+    opacity: 1;
+
+  }
+  100%{
+    transform: translateY(-80vh);
+    opacity: 0;
+
+  }
+
+}
+
+.bubbles img:nth-child(1) {
+  animation-delay: 2s;
+  width: 25px;
+
+}
+
+.bubbles img:nth-child(2) {
+  animation-delay: 1s;
+  width: 50px;
+
+}
+.bubbles img:nth-child(3) {
+  animation-delay: 3s;
+  width: 25px;
+
+}
+.bubbles img:nth-child(4) {
+  animation-delay: 4.5s;
+  width: 70px;
+
+}
+.bubbles img:nth-child(5) {
+  animation-delay: 3s;
+
+}
+.bubbles img:nth-child(6) {
+  animation-delay: 6s;
+
+}
+
+.bubbles img:nth-child(7) {
+  animation-delay: 7s;
+
+}
+
+
+/*Home Kursor Text Nav Hover*/
+#indexX2:hover {
+	font-weight: bold;
+	background: white;
+	border-radius: 30px;
+    padding: 0px 10px 5px 10px;
+
+}
+
+#indexX3:hover {
+	color: white;
+	font-weight: bold;
+	background: #0099FF;
+	border-radius: 30px;
+    padding: 0px 10px 5px 10px;
+
+}
+
+#indexX4:hover {
+	font-weight: bold;
+	background: white;
+	border-radius: 30px;
+    padding: 0px 10px 5px 10px;
+    margin-top: 5px;
+    margin-bottom: 2px;
+}
+
+
+/*Background Games Page*/
+.games {
+	background-image: url(img/game/91657.jpg);
+}
+
+/*Font external Content Games Page Made by me*/
+@font-face {
+	font-family: 'game';
+	src: url('fonts/retrofont.ttf');
+}
+.gamesfont {
+	font-family: 'game', system-ui, cursive;
+	font-size: 11px;
+}
+
+
+
+/*Background Games Google Page*/
+.gamesgoogle {
+		background-image: url(img/game/41524.jpg);
+		color: white;
+
+}
+
+/*Button Link Play Google Games*/
+.linkgames {
+	background: #699212;
+	color: white;
+	border-color: #644407;
+	border-top-right-radius: 35px;
+	border-bottom-left-radius: 35px;
+	border-width: 3px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/*Button Link Play Google Games Hover*/
+.linkgames:hover {
+	border-color: #5D801C;
+	border-top-right-radius: 35px;
+	border-bottom-left-radius: 35px;
+	border-width: 3px;
+}
+
+
+/*NavBar Game Icon*/
+#games {
+	color: purple;
+	font-weight: bold;
+	background: #FFC107;
+	border-radius: 30px;
+    padding: 7px 10px 5px 10px;
+    margin-top: 5px;
+    margin-bottom: 2px;
+}
+
+/*Text of Name the Games*/
+#gamesH5 {
+	color: white;
+	font-weight: bold;
+}
+
+
+
+/* Button Neon Color transform */
+.gamesclick a {
+position: relative;
+display: inline-block;
+padding: 10px 20px;
+color: purple;
+text-decoration: none;
+overflow: hidden;
+font-weight: bold;
+text-transform: uppercase;
+transition: .5s;
+margin-top: 2px;
+}
+
+
+.gamesclick a:hover  {
+	transition: all .5s;
+	background: #FFC107;
+	color: purple;
+	box-shadow: 0 0 3px #FFC107,
+    	        0 0 6px #FFC107,
+        	    0 0 12px #FFC107,
+        	    0 0 24px #FFC107,
+        	    0 0 48px #FFC107,
+        	    0 0 96px #FFC107,
+        	    0 0 192px #FFC107;
+}
+
+.gamesclick a span {
+  position: absolute;
+  display: block;
+}
+
+.gamesclick a span:nth-child(1) {
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #FFC107);
+  animation: btn-anim1 1s linear infinite;
+}
+
+@keyframes btn-anim1 {
+  0% {
+    left: -100%;
+  }
+  50%,100% {
+    left: 100%;
+  }
+}
+
+.gamesclick a span:nth-child(2) {
+  top: -100%;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg, transparent, #FFC107);
+  animation: btn-anim2 1s linear infinite;
+  animation-delay: .25s
+}
+
+@keyframes btn-anim2 {
+  0% {
+    top: -100%;
+  }
+  50%,100% {
+    top: 100%;
+  }
+}
+
+.gamesclick a span:nth-child(3) {
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(270deg, transparent, #FFC107);
+  animation: btn-anim3 1s linear infinite;
+  animation-delay: .5s
+}
+
+@keyframes btn-anim3 {
+  0% {
+    right: -100%;
+  }
+  50%,100% {
+    right: 100%;
+  }
+}
+
+.gamesclick a span:nth-child(4) {
+  bottom: -100%;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(360deg, transparent, #FFC107);
+  animation: btn-anim4 1s linear infinite;
+  animation-delay: .75s
+}
+
+@keyframes btn-anim4 {
+  0% {
+    bottom: -100%;
+  }
+  50%,100% {
+    bottom: 100%;
+  }
+}
+
+
+/*Games Text Nav Non-hover*/
+#gamesX1 {
+	font-size: 25px;
+	font-family: 'Rancho', cursive;
+
+}
+
+/*Games Text Nav hover*/
+#gamesX1:hover {
+	color: white;
+	font-weight: bold;
+	background: #666600;
+	border-radius: 30px;
+    padding: 6px 6px 6px 6px;
+    margin-top: 5px;
+    margin-bottom: 2px;
+
+}
+
+#gamesX2:hover {
+	color: purple;
+	font-weight: bold;
+	background: white;
+	border-radius: 30px;
+	padding: 6px 6px 6px 6px;
+    margin-top: 5px;
+    margin-bottom: 2px;
+
+}
+
+#gamesX3:hover {
+	color: purple;
+	font-weight: bold;
+	background: #0099FF;
+	border-radius: 30px;
+    padding: 6px 6px 6px 6px;
+    margin-top: 5px;
+    margin-bottom: 2px;
+
+}
+
+#gamesX4:hover {
+	color: purple;
+	font-weight: bold;
+	background: white;
+	border-radius: 30px;
+    padding: 6px 6px 6px 6px;
+    margin-top: 5px;
+    margin-bottom: 2px;
+}
+
+
+
+
+
+/*Font external IT Page*/
+@font-face {
+	font-family: tech;
+	src: url(fonts/tech.ttf);
+}
+
+.technology{
+	font-family: tech;
+}
+
+
+
+/*Projects Text Nav Non-hover*/
+#projectsX1 {
+	font-size: 25px;
+	font-family: 'Rancho', cursive;
+
+}
+
+/*Projects Kursor Text Nav Hover*/
+#projectsX1:hover {
+	color: white;
+	font-weight: bold;
+	background: #666600;
+	border-radius: 30px;
+    padding: 7px 10px 5px 10px;
+    margin-top: 5px;
+    margin-bottom: 2px;
+
+
+}
+
+/*Project text Nav hover*/
+#projects {
+	font-weight: bold;
+	background: #C0C0C0;
+	border-radius: 30px;
+    padding: 7px 5px 5px 10px;
+    margin-top: 5px;
+    margin-bottom: 2px;
+
+}
+
+#projectsX3:hover {
+	color: white;
+	font-weight: bold;
+	background: #0099FF;
+	border-radius: 30px;
+    padding: 7px 10px 5px 10px;
+    margin-top: 5px;
+    margin-bottom: 2px;
+}
+
+#projectsX4:hover {
+	font-weight: bold;
+	background: white;
+	border-radius: 30px;
+    padding: 7px 10px 5px 10px;
+    margin-top: 5px;
+    margin-bottom: 2px;
+}
+
+
+/*Background Image Contact Page*/
+.contact {
+	background-image: url(img/2332.jpg);
+}
+
+
+
+
+/*Contact Text Nav Non-hover*/
+#contactX1 {
+	font-size: 25px;
+	font-family: 'Rancho', cursive;
+}
+
+
+/*Contact Text Nav Hover*/
+#contact:hover {
+	font-weight: bold;
+	background:#0099FF;
+	border-radius: 30px;
+    padding: 7px 10px 5px 10px;
+    margin-top: 5px;
+    margin-bottom: 2px;
+}
+
+#contact {
+	color: white;
+	font-weight: bold;
+	background: #0099FF;
+	border-radius: 30px;
+    padding: 7px 10px 5px 10px;
+    margin-top: 5px;
+    margin-bottom: 2px;
+}
+
+
+
+#contactX1:hover {
+	color: white;
+	font-weight: bold;
+	background: #666600;
+	border-radius: 30px;
+    padding: 7px 10px 5px 10px;
+    margin-top: 5px;
+    margin-bottom: 2px;
+
+}
+
+#contactX2:hover {
+	font-weight: bold;
+	background: white;
+	border-radius: 30px;
+    padding: 7px 10px 5px 10px;
+    margin-top: 5px;
+    margin-bottom: 2px;
+}
+
+#contactX4:hover {
+	font-weight: bold;
+	background: white;
+	border-radius: 30px;
+    padding: 7px 10px 5px 10px;
+    margin-top: 5px;
+    margin-bottom: 2px;
+}
+
+
+/*Background Al-Qur'an Page*/
+.alquran {
+	background-image: url(img/heaven.jpg);
+	width: 100%;
+	max-height: 100vh;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+
+
+/*Al-Qur'an Text Nav Hover*/
+#alquran {
+	font-weight: bold;
+	background: white;
+	color: black;
+	border-radius: 30px;
+    padding: 7px 10px 5px 10px;
+    margin-top: 5px;
+    margin-bottom: 2px;
+}
+
+
+/*Al-Qur'an Text Nav Non-hover*/
+#alquranX1 {
+	font-size: 25px;
+	font-family: 'Rancho', cursive;
+
+}
+
+#alquranX1:hover {
+	color: white;
+	font-weight: bold;
+	background: #666600;
+	border-radius: 30px;
+    padding: 7px 10px 5px 10px;
+    margin-top: 5px;
+    margin-bottom: 2px;
+}
+
+
+#alquranX2:hover {
+	font-weight: bold;
+	background: white;
+	border-radius: 30px;
+    padding: 7px 10px 5px 10px;
+    margin-top: 5px;
+    margin-bottom: 2px;
+}
+
+
+#alquranX3:hover{
+	color: white;
+	font-weight: bold;
+	background:#0099FF;
+	border-radius: 30px;
+    padding: 7px 10px 5px 10px;
+    margin-top: 5px;
+    margin-bottom: 2px;
+}
+
+
+/*Instagram Border Color*/
+#ig {
+	border-color: orange;
+}
+
+/*Instagram Link Text Hover and radius color blue*/
+#ig:hover {
+	background-color: #3498DB;
+	font-weight: bold;
+	cursor: alias;
+	border-top-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+}
+
+/*Gmail Border Color*/
+#gm {
+	border-color: red;
+}
+
+/*Gmail Link Text Hover and border radius color bg blue*/
+#gm:hover {
+	background-color: #3498DB;
+	font-weight: bold;
+	cursor: alias;
+	border-top-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+} 
+
+/*Github Border Color*/
+#git{
+	border-color: black;
+}
+
+/*Github Link Text Hover and border radius color bg blue*/
+#git:hover {
+	background-color: #3498DB;
+	font-weight: bold;
+	cursor: alias;
+	border-top-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+
+
+}
+/*Tiktok border radius color*/
+#tt{
+	border-color: black;
+	border-top-right-radius: 25px;
+	border-bottom-left-radius: 25px;
+	transition: all .6s;
+
+}
+
+/*Tiktok Link text hover radius color bg blue*/
+#tt:hover {
+	border-color: white;
+	border-top-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+	border-top-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+	background-color: #3498DB;
+	font-weight: bold;
+	color: black;
+	cursor: alias;
+	
+}
