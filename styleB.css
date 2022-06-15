@@ -119,13 +119,13 @@ body {
 
 .sec {
   position: relative;
-  padding: 100px;
+  padding: 10px;
 background-image: linear-gradient(to bottom, #038184, #009797, #00ada9, #00c4ba, #00dbca, #00dad0, #00d8d6, #00d7db, #00bcd0, #00a2c1, #0287ad, #216e96);
 }
 
 
 .sec h1 {
-	text-align: center;
+  text-align: center;
   font-size: 40px;
   color: black;
   margin-bottom: 20px;
