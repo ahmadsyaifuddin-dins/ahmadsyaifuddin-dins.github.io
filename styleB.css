@@ -408,6 +408,7 @@ html::before {
 
 /*Button Link Play Google Games Hover*/
 .linkgames:hover {
+	color: black ;
 	border-color: #5D801C;
 	border-top-right-radius: 35px;
 	border-bottom-left-radius: 35px;
