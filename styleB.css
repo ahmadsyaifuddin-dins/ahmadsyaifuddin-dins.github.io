@@ -85,11 +85,13 @@ body {
   pointer-events: none;
 }
 
-
-#bird1 {
-	max-width: 100%;
+@media only screen and (max-width 576px) {
+#bird { 
+	max-width: calc(100% - 72px);
   height: auto;
 }
+}
+
 
 #bird2 {
   max-width: 100%;
