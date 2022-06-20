@@ -85,9 +85,15 @@ body {
   pointer-events: none;
 }
 
+
 #bird1 {
-	width: 100%;
-	left: -1px;
+	max-width: 100%;
+  height: auto;
+}
+
+#bird2 {
+  max-width: 100%;
+  height: auto;
 }
 
 .parallax #text {
