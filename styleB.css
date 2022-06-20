@@ -86,7 +86,7 @@ body {
 }
 
 @media only screen and (max-width 576px) {
-#bird { 
+#bird1 { 
 	max-width: calc(100% - 72px);
   height: auto;
 }
