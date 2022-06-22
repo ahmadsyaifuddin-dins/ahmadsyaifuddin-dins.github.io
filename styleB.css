@@ -85,18 +85,24 @@ body {
   pointer-events: none;
 }
 
-@media only screen and (max-width 576px) {
-#bird1 { 
-	max-width: calc(100% - 72px);
-  height: auto;
-}
-}
 
-
-#bird2 {
+@media (min-width: 320px) and (max-width: 767px) {
+  #bird1 {
   max-width: 100%;
   height: auto;
+  margin-top: 120px;
+} 
 }
+
+@media (min-width: 320px) and (max-width: 767px) {
+  #bird2 {
+  max-width: 100%;
+  height: auto;
+  margin-top: 150px;
+
+} 
+}
+
 
 .parallax #text {
   position: absolute;
