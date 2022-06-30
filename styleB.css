@@ -135,6 +135,11 @@ body {
   transform: translateY(100px);
 }
 
+#btn:hover {
+  background: #30ACC4;
+  color: white;
+}
+
 .sec {
 
   position: relative;
