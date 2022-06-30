@@ -122,7 +122,7 @@ body {
 }
 
 #btn {
-  font-family: cursive;
+  font-family: 'rancho', system-ui;
   text-decoration: none;
   display: inline-block;
   padding: 8px 30px;
