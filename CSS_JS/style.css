@@ -80,6 +80,15 @@ html {
 
   }
 
+@media (min-width: 520px) and (max-width: 1000px) {
+    form {
+    max-width: 400px;
+
+  
+    
+  }
+  }
+
   form .svgContainer div {
 
     position: relative;
