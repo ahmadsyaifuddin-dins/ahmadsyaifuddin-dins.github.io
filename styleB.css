@@ -13,10 +13,10 @@
  And Etc .......1:0
  */
 
-*{
+* {
   margin: 0;
   padding: 0;
-   box-sizing: border-box;
+  box-sizing: border-box;
 
 }
 
@@ -29,17 +29,11 @@ body {
 }
 
 
-
-
-
-
-
-
 /*Home NavBar Hover*/
 #index {
   font-size: 30px;
   font-weight: bold;
-  border-radius: 30px;
+
   padding: 0px 10px 5px 10px;
   font-family: 'Rancho', cursive;
 
@@ -74,7 +68,7 @@ body {
   left: 0;
   width: 100%;
   height: 100px;
-  background: linear-gradient(to top, #038082,transparent);
+  background: linear-gradient(to top, #038082, transparent);
   z-index: 10;
 }
 
@@ -92,19 +86,19 @@ body {
 /* Bird images media query viewport for mobile */
 @media (min-width: 320px) and (max-width: 767px) {
   #bird1 {
-  max-width: 100%;
-  height: auto;
-  margin-top: 120px;
-}
+    max-width: 100%;
+    height: auto;
+    margin-top: 120px;
+  }
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
   #bird2 {
-  max-width: 100%;
-  height: auto;
-  margin-top: 150px;
+    max-width: 100%;
+    height: auto;
+    margin-top: 150px;
 
-}
+  }
 }
 
 
@@ -118,7 +112,8 @@ body {
 
 
 }
-.parallax #text span{
+
+.parallax #text span {
   font-size: 0.20em;
   letter-spacing: 2px;
   font-weight: 400;
@@ -154,7 +149,7 @@ body {
 .sec h1 {
   text-align: center;
   font-size: 40px;
-  color:  white;
+  color: white;
   text-shadow: 6px 6px 15px black;
   margin-bottom: 20px;
 }
@@ -187,16 +182,16 @@ body {
 
 /*Text On My About*/
 .text-caveat {
-font-family: system-ui, 'Akaya Kanadaka', cursive, fangsong;
-font-size: 18.5px;
-text-shadow: 10px 10px 15px black;
-color: white;
+  font-family: system-ui, 'Akaya Kanadaka', cursive, fangsong;
+  font-size: 18.5px;
+  text-shadow: 10px 10px 15px black;
+  color: white;
 }
 
 
 
 /*Bubbles Animation img */
-.bubbles img{
+.bubbles img {
   width: 50px;
   animation: bubble 7s linear infinite;
   bottom: -70px;
@@ -212,20 +207,23 @@ color: white;
 
 
 @keyframes bubble {
-  0%{
+  0% {
     transform: translateY(0);
     opacity: 0;
 
   }
-  50%{
+
+  50% {
     opacity: 1;
 
   }
-  70%{
+
+  70% {
     opacity: 1;
 
   }
-  100%{
+
+  100% {
     transform: translateY(-80vh);
     opacity: 0;
 
@@ -244,20 +242,24 @@ color: white;
   width: 50px;
 
 }
+
 .bubbles img:nth-child(3) {
   animation-delay: 3s;
   width: 25px;
 
 }
+
 .bubbles img:nth-child(4) {
   animation-delay: 4.5s;
   width: 70px;
 
 }
+
 .bubbles img:nth-child(5) {
   animation-delay: 3s;
 
 }
+
 .bubbles img:nth-child(6) {
   animation-delay: 6s;
 
@@ -273,8 +275,8 @@ color: white;
 #indexX2:hover {
   font-weight: bold;
   background: white;
-  border-radius: 30px;
-    padding: 0px 10px 5px 10px;
+
+  padding: 0px 10px 5px 10px;
 
 }
 
@@ -282,18 +284,18 @@ color: white;
   color: white;
   font-weight: bold;
   background: #0099FF;
-  border-radius: 30px;
-    padding: 0px 10px 5px 10px;
+
+  padding: 0px 10px 5px 10px;
 
 }
 
 #indexX4:hover {
   font-weight: bold;
   background: white;
-  border-radius: 30px;
-    padding: 0px 10px 5px 10px;
-    margin-top: 5px;
-    margin-bottom: 2px;
+
+  padding: 0px 10px 5px 10px;
+  margin-top: 5px;
+  margin-bottom: 2px;
 }
 
 
@@ -316,13 +318,16 @@ color: white;
 }
 
 @keyframes outrun {
-  to { --outrun: 1; }
+  to {
+    --outrun: 1;
+  }
 }
 
 
 html {
   height: 100vh;
 }
+
 html::before {
   content: "";
   position: fixed;
@@ -361,37 +366,35 @@ html::before {
   --lg8: linear-gradient(transparent 0px calc(var(--l8)), var(--c1) calc(var(--l8)) calc(var(--l8) + 2px), transparent calc(var(--l8) + 2px));
   --lg9: linear-gradient(transparent 0px calc(var(--l9)), var(--c1) calc(var(--l9)) calc(var(--l9) + 2px), transparent calc(var(--l9) + 2px));
   background: var(--lgDepth),
-              var(--lgh),
-              var(--lg0),
-              var(--lg1),
-              var(--lg2),
-              var(--lg3),
-              var(--lg4),
-              var(--lg5),
-              var(--lg6),
-              var(--lg7),
-              var(--lg8),
-              var(--lg9),
-              var(--mtn) center 60% / min(75vh, 75vw) no-repeat,
-              var(--mtn2) center 60% / min(75vh, 75vw) repeat-x,
-              linear-gradient(transparent 20%, var(--c5) 60%, var(--c3) 60% 70%, hsla(var(--c2hsl), 0.75), transparent 150%),
-              repeating-linear-gradient(90deg, transparent 0px 2px, var(--c3) 3px 4px),
-              radial-gradient(circle at center, transparent min(45vh, 45vw), hsla(var(--c2hsl), 0.75) min(65vh, 65vw), var(--c3) 120%),
-              linear-gradient(
-                transparent 30vh,
-                  var(--c5) 30vh 30.2vh,
-                     transparent 30.2vh 35.2vh,
-                              var(--c5) 35.2vh 36vh,
-                                   transparent 36vh 40vh,
-                                          var(--c5) 40vh 41.6vh,
-                                             transparent 41.6vh 45.1vh,
-                                                      var(--c5) 45.1vh 48.6vh,
-                                                           transparent 48.6vh 52.5vh,
-                                                                    var(--c5) 52.5vh 57.5vh,
-                                                                         transparent 57.5vh
-              ),
-              radial-gradient(circle at center, var(--c4) min(45vh, 45vw), transparent min(45vh, 45vw)),
-              linear-gradient(var(--c5) 60%, var(--c3) 60%, var(--c2) 150%);
+    var(--lgh),
+    var(--lg0),
+    var(--lg1),
+    var(--lg2),
+    var(--lg3),
+    var(--lg4),
+    var(--lg5),
+    var(--lg6),
+    var(--lg7),
+    var(--lg8),
+    var(--lg9),
+    var(--mtn) center 60% / min(75vh, 75vw) no-repeat,
+    var(--mtn2) center 60% / min(75vh, 75vw) repeat-x,
+    linear-gradient(transparent 20%, var(--c5) 60%, var(--c3) 60% 70%, hsla(var(--c2hsl), 0.75), transparent 150%),
+    repeating-linear-gradient(90deg, transparent 0px 2px, var(--c3) 3px 4px),
+    radial-gradient(circle at center, transparent min(45vh, 45vw), hsla(var(--c2hsl), 0.75) min(65vh, 65vw), var(--c3) 120%),
+    linear-gradient(transparent 30vh,
+      var(--c5) 30vh 30.2vh,
+      transparent 30.2vh 35.2vh,
+      var(--c5) 35.2vh 36vh,
+      transparent 36vh 40vh,
+      var(--c5) 40vh 41.6vh,
+      transparent 41.6vh 45.1vh,
+      var(--c5) 45.1vh 48.6vh,
+      transparent 48.6vh 52.5vh,
+      var(--c5) 52.5vh 57.5vh,
+      transparent 57.5vh),
+    radial-gradient(circle at center, var(--c4) min(45vh, 45vw), transparent min(45vh, 45vw)),
+    linear-gradient(var(--c5) 60%, var(--c3) 60%, var(--c2) 150%);
 }
 
 
@@ -406,6 +409,7 @@ html::before {
   font-family: 'game';
   src: url('fonts/retrofont.ttf');
 }
+
 .gamesfont {
   font-family: 'game', system-ui, cursive;
   font-size: 11px;
@@ -415,8 +419,8 @@ html::before {
 
 /*Background Games Google Page*/
 .gamesgoogle {
-    background-image: url(img/game/41524.jpg);
-    color: black;
+  background-image: url(img/game/41524.jpg);
+  color: black;
 
 }
 
@@ -434,7 +438,7 @@ html::before {
 
 /*Button Link Play Google Games Hover*/
 .linkgames:hover {
-  color: black ;
+  color: black;
   border-color: #5D801C;
   border-top-right-radius: 35px;
   border-bottom-left-radius: 35px;
@@ -447,10 +451,10 @@ html::before {
   color: purple;
   font-weight: bold;
   background: #FFC107;
-  border-radius: 30px;
-    padding: 7px 10px 5px 10px;
-    margin-top: 5px;
-    margin-bottom: 2px;
+
+  padding: 5px 10px;
+  margin-top: 5px;
+  margin-bottom: 2px;
 }
 
 /*Text of Name the Games*/
@@ -463,30 +467,30 @@ html::before {
 
 /* Button Neon Color transform */
 .gamesclick a {
-position: relative;
-display: inline-block;
-padding: 10px 20px;
-color: white;
-text-decoration: none;
-overflow: hidden;
-font-weight: bold;
-text-transform: uppercase;
-transition: .5s;
-margin-top: 2px;
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+  overflow: hidden;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: .5s;
+  margin-top: 2px;
 }
 
 
-.gamesclick a:hover  {
+.gamesclick a:hover {
   transition: all .5s;
   background: #FFC107;
   color: purple;
   box-shadow: 0 0 3px #FFC107,
-              0 0 6px #FFC107,
-              0 0 12px #FFC107,
-              0 0 24px #FFC107,
-              0 0 48px #FFC107,
-              0 0 96px #FFC107,
-              0 0 192px #FFC107;
+    0 0 6px #FFC107,
+    0 0 12px #FFC107,
+    0 0 24px #FFC107,
+    0 0 48px #FFC107,
+    0 0 96px #FFC107,
+    0 0 192px #FFC107;
 }
 
 .gamesclick a span {
@@ -507,7 +511,9 @@ margin-top: 2px;
   0% {
     left: -100%;
   }
-  50%,100% {
+
+  50%,
+  100% {
     left: 100%;
   }
 }
@@ -526,7 +532,9 @@ margin-top: 2px;
   0% {
     top: -100%;
   }
-  50%,100% {
+
+  50%,
+  100% {
     top: 100%;
   }
 }
@@ -545,7 +553,9 @@ margin-top: 2px;
   0% {
     right: -100%;
   }
-  50%,100% {
+
+  50%,
+  100% {
     right: 100%;
   }
 }
@@ -564,7 +574,9 @@ margin-top: 2px;
   0% {
     bottom: -100%;
   }
-  50%,100% {
+
+  50%,
+  100% {
     bottom: 100%;
   }
 }
@@ -582,10 +594,10 @@ margin-top: 2px;
   color: white;
   font-weight: bold;
   background: #666600;
-  border-radius: 30px;
-    padding: 6px 6px 6px 6px;
-    margin-top: 5px;
-    margin-bottom: 2px;
+
+  padding: 6px 6px 6px 6px;
+  margin-top: 5px;
+  margin-bottom: 2px;
 
 }
 
@@ -593,10 +605,10 @@ margin-top: 2px;
   color: purple;
   font-weight: bold;
   background: white;
-  border-radius: 30px;
+
   padding: 6px 6px 6px 6px;
-    margin-top: 5px;
-    margin-bottom: 2px;
+  margin-top: 5px;
+  margin-bottom: 2px;
 
 }
 
@@ -604,10 +616,10 @@ margin-top: 2px;
   color: purple;
   font-weight: bold;
   background: #0099FF;
-  border-radius: 30px;
-    padding: 6px 6px 6px 6px;
-    margin-top: 5px;
-    margin-bottom: 2px;
+
+  padding: 6px 6px 6px 6px;
+  margin-top: 5px;
+  margin-bottom: 2px;
 
 }
 
@@ -615,15 +627,11 @@ margin-top: 2px;
   color: purple;
   font-weight: bold;
   background: white;
-  border-radius: 30px;
-    padding: 6px 6px 6px 6px;
-    margin-top: 5px;
-    margin-bottom: 2px;
+
+  padding: 6px 6px 6px 6px;
+  margin-top: 5px;
+  margin-bottom: 2px;
 }
-
-
-
-
 
 
 
@@ -640,10 +648,9 @@ margin-top: 2px;
   color: white;
   font-weight: bold;
   background: #666600;
-  border-radius: 30px;
-    padding: 7px 10px 5px 10px;
-    margin-top: 5px;
-    margin-bottom: 2px;
+  padding: 5px 10px;
+  margin-top: 5px;
+  margin-bottom: 2px;
 
 
 }
@@ -652,10 +659,10 @@ margin-top: 2px;
 #projects {
   font-weight: bold;
   background: #C0C0C0;
-  border-radius: 30px;
-    padding: 7px 5px 5px 10px;
-    margin-top: 5px;
-    margin-bottom: 2px;
+
+  padding: 7px 5px 5px 10px;
+  margin-top: 5px;
+  margin-bottom: 2px;
 
 }
 
@@ -663,19 +670,19 @@ margin-top: 2px;
   color: white;
   font-weight: bold;
   background: #0099FF;
-  border-radius: 30px;
-    padding: 7px 10px 5px 10px;
-    margin-top: 5px;
-    margin-bottom: 2px;
+
+  padding: 5px 10px;
+  margin-top: 5px;
+  margin-bottom: 2px;
 }
 
 #projectsX4:hover {
   font-weight: bold;
   background: white;
-  border-radius: 30px;
-    padding: 7px 10px 5px 10px;
-    margin-top: 5px;
-    margin-bottom: 2px;
+
+  padding: 5px 10px;
+  margin-top: 5px;
+  margin-bottom: 2px;
 }
 
 
@@ -691,21 +698,21 @@ margin-top: 2px;
 /*Contact Text Nav Hover*/
 #contact:hover {
   font-weight: bold;
-  background:#0099FF;
-  border-radius: 30px;
-    padding: 7px 10px 5px 10px;
-    margin-top: 5px;
-    margin-bottom: 2px;
+  background: #0099FF;
+
+  padding: 5px 10px;
+  margin-top: 5px;
+  margin-bottom: 2px;
 }
 
 #contact {
   color: white;
   font-weight: bold;
   background: #0099FF;
-  border-radius: 30px;
-    padding: 7px 10px 5px 10px;
-    margin-top: 5px;
-    margin-bottom: 2px;
+
+  padding: 5px 10px;
+  margin-top: 5px;
+  margin-bottom: 2px;
 }
 
 
@@ -714,29 +721,28 @@ margin-top: 2px;
   color: white;
   font-weight: bold;
   background: #666600;
-  border-radius: 30px;
-    padding: 7px 10px 5px 10px;
-    margin-top: 5px;
-    margin-bottom: 2px;
+
+  padding: 5px 10px;
+  margin-top: 5px;
+  margin-bottom: 2px;
 
 }
 
 #contactX2:hover {
   font-weight: bold;
   background: white;
-  border-radius: 30px;
-    padding: 7px 10px 5px 10px;
-    margin-top: 5px;
-    margin-bottom: 2px;
+
+  padding: 5px 10px;
+  margin-top: 5px;
+  margin-bottom: 2px;
 }
 
 #contactX4:hover {
   font-weight: bold;
   background: white;
-  border-radius: 30px;
-    padding: 7px 10px 5px 10px;
-    margin-top: 5px;
-    margin-bottom: 2px;
+  padding: 5px 10px;
+  margin-top: 5px;
+  margin-bottom: 2px;
 }
 
 
@@ -756,10 +762,10 @@ margin-top: 2px;
   font-weight: bold;
   background: white;
   color: black;
-  border-radius: 30px;
-    padding: 7px 10px 5px 10px;
-    margin-top: 5px;
-    margin-bottom: 2px;
+
+  padding: 5px 10px;
+  margin-top: 5px;
+  margin-bottom: 2px;
 }
 
 
@@ -774,31 +780,31 @@ margin-top: 2px;
   color: white;
   font-weight: bold;
   background: #666600;
-  border-radius: 30px;
-    padding: 7px 10px 5px 10px;
-    margin-top: 5px;
-    margin-bottom: 2px;
+
+  padding: 5px 10px;
+  margin-top: 5px;
+  margin-bottom: 2px;
 }
 
 
 #alquranX2:hover {
   font-weight: bold;
   background: white;
-  border-radius: 30px;
-    padding: 7px 10px 5px 10px;
-    margin-top: 5px;
-    margin-bottom: 2px;
+
+  padding: 5px 10px;
+  margin-top: 5px;
+  margin-bottom: 2px;
 }
 
 
-#alquranX3:hover{
+#alquranX3:hover {
   color: white;
   font-weight: bold;
-  background:#0099FF;
-  border-radius: 30px;
-    padding: 7px 10px 5px 10px;
-    margin-top: 5px;
-    margin-bottom: 2px;
+  background: #0099FF;
+
+  padding: 5px 10px;
+  margin-top: 5px;
+  margin-bottom: 2px;
 }
 
 
@@ -828,10 +834,10 @@ margin-top: 2px;
   cursor: alias;
   border-top-left-radius: 25px;
   border-bottom-right-radius: 25px;
-} 
+}
 
 /*Github Border Color*/
-#git{
+#git {
   border-color: black;
 }
 
@@ -845,8 +851,9 @@ margin-top: 2px;
 
 
 }
+
 /*Tiktok border radius color*/
-#tt{
+#tt {
   border-color: black;
   border-top-right-radius: 25px;
   border-bottom-left-radius: 25px;
@@ -865,5 +872,5 @@ margin-top: 2px;
   font-weight: bold;
   color: black;
   cursor: alias;
-  
+
 }
