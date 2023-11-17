@@ -92,9 +92,7 @@ body {
     height: auto;
     margin-top: 120px;
   }
-}
 
-@media (min-width: 320px) and (max-width: 767px) {
   #bird2 {
     max-width: 100%;
     height: auto;
@@ -102,7 +100,6 @@ body {
 
   }
 }
-
 
 .parallax #text {
   position: absolute;
