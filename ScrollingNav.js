@@ -1,6 +1,6 @@
 // Event pada saat link di klik
-$('.page-scroll').on('click', function(e) {
-	
+$('.page-scroll').on('click', function (e) {
+
 
 	//ambil isi Tujuan
 	const tujuan = $(this).attr('href');
@@ -11,9 +11,8 @@ $('.page-scroll').on('click', function(e) {
 
 	$('html , body').animate({
 		scrollTop: elementTujuan.offset().top
-	}, 750);
+	}, 2000);
 
 
 	e.preventDefault();
 })
-
