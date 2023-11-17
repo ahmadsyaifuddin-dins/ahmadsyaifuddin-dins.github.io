@@ -82,6 +82,24 @@ body {
   pointer-events: none;
 }
 
+.parallax #text {
+  position: absolute;
+  color: #094b65;
+  font-size: 10vw;
+  text-align: center;
+  line-height: 0.55em;
+  font-family: 'Rancho', cursive;
+
+
+}
+
+.parallax #text span {
+  font-size: 0.20em;
+  letter-spacing: 2px;
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+}
+
 /*End JS Parallax*/
 
 
@@ -99,24 +117,6 @@ body {
     margin-top: 150px;
 
   }
-}
-
-.parallax #text {
-  position: absolute;
-  color: #094b65;
-  font-size: 10vw;
-  text-align: center;
-  line-height: 0.55em;
-  font-family: 'Rancho', cursive;
-
-
-}
-
-.parallax #text span {
-  font-size: 0.20em;
-  letter-spacing: 2px;
-  font-weight: 400;
-  font-family: 'Poppins', sans-serif;
 }
 
 #btn {
