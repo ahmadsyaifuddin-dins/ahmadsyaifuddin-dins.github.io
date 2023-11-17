@@ -82,6 +82,8 @@ body {
   pointer-events: none;
 }
 
+/*End JS Parallax*/
+
 
 /* Bird images media query viewport for mobile */
 @media (min-width: 320px) and (max-width: 767px) {
