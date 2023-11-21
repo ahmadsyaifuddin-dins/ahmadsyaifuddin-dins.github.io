@@ -42,6 +42,12 @@
 
 /*End Home Navbar Cursor */
 
+#contact {
+  color: black;
+  background-color: #ffd34f;
+  font-weight: bold;
+}
+
 /*NavBar Game Icon*/
 #games {
   color: purple;
