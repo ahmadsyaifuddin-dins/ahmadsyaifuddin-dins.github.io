@@ -30,52 +30,6 @@ body {
 }
 
 
-/*Home NavBar Hover*/
-#index {
-  font-size: 30px;
-  font-weight: bold;
-
-  padding: 0px 10px 5px 10px;
-  font-family: 'Rancho', cursive;
-
-
-}
-
-/* Home Navbar Cursor */
-#projectsX1 {
-  font-size: 20px;
-}
-
-#projectsX1:hover {
-  color: #699212;
-}
-
-#gamesX1 {
-  font-size: 20px;
-}
-
-#gamesX1:hover {
-  color: #699212;
-}
-
-#contactX1 {
-  font-size: 20px;
-}
-
-#contactX1:hover {
-  color: #699212;
-}
-
-#alquranX1 {
-  font-size: 20px;
-}
-
-#alquranX1:hover {
-  color: #699212;
-}
-
-/*End Home Navbar Cursor */
-
 /*Info Definisi Web Hover*/
 .infowebHover button:hover {
   font-weight: bold;
