@@ -1,0 +1,204 @@
+/*Home Kursor Text Nav Hover*/
+#indexX2:hover {
+  font-weight: bold;
+  background: white;
+
+  padding: 0px 10px 5px 10px;
+}
+
+#indexX3:hover {
+  color: white;
+  font-weight: bold;
+  background: #0099ff;
+
+  padding: 0px 10px 5px 10px;
+}
+
+#indexX4:hover {
+  font-weight: bold;
+  background: white;
+
+  padding: 0px 10px 5px 10px;
+  margin-top: 5px;
+  margin-bottom: 2px;
+}
+
+/*Games Text Nav Non-hover*/
+#gamesX1 {
+  font-size: 25px;
+  font-family: "Rancho", cursive;
+}
+
+/*Games Text Nav hover*/
+#gamesX1:hover {
+  color: white;
+  font-weight: bold;
+  background: #666600;
+
+  padding: 6px 6px 6px 6px;
+  margin-top: 5px;
+  margin-bottom: 2px;
+}
+
+#gamesX2:hover {
+  color: purple;
+  font-weight: bold;
+  background: white;
+
+  padding: 6px 6px 6px 6px;
+  margin-top: 5px;
+  margin-bottom: 2px;
+}
+
+#gamesX3:hover {
+  color: purple;
+  font-weight: bold;
+  background: #0099ff;
+
+  padding: 6px 6px 6px 6px;
+  margin-top: 5px;
+  margin-bottom: 2px;
+}
+
+#gamesX4:hover {
+  color: purple;
+  font-weight: bold;
+  background: white;
+
+  padding: 6px 6px 6px 6px;
+  margin-top: 5px;
+  margin-bottom: 2px;
+}
+
+/*Projects Text Nav Non-hover*/
+#projectsX1 {
+  font-size: 25px;
+  font-family: "Rancho", cursive;
+}
+
+/*Projects Kursor Text Nav Hover*/
+#projectsX1:hover {
+  color: white;
+  font-weight: bold;
+  background: #666600;
+  padding: 5px 10px;
+  margin-top: 5px;
+  margin-bottom: 2px;
+}
+
+/*Project text Nav hover*/
+#projects {
+  font-weight: bold;
+  background: #c0c0c0;
+
+  padding: 7px 5px 5px 10px;
+  margin-top: 5px;
+  margin-bottom: 2px;
+}
+
+#projectsX3:hover {
+  color: white;
+  font-weight: bold;
+  background: #0099ff;
+
+  padding: 5px 10px;
+  margin-top: 5px;
+  margin-bottom: 2px;
+}
+
+#projectsX4:hover {
+  font-weight: bold;
+  background: white;
+
+  padding: 5px 10px;
+  margin-top: 5px;
+  margin-bottom: 2px;
+}
+
+/*Contact Text Nav Non-hover*/
+#contactX1 {
+  font-size: 25px;
+  font-family: "Rancho", cursive;
+}
+
+/*Contact Text Nav Hover*/
+#contact:hover {
+  font-weight: bold;
+  background: #0099ff;
+
+  padding: 5px 10px;
+  margin-top: 5px;
+  margin-bottom: 2px;
+}
+
+#contact {
+  color: white;
+  font-weight: bold;
+  background: #0099ff;
+
+  padding: 5px 10px;
+  margin-top: 5px;
+  margin-bottom: 2px;
+}
+
+#contactX1:hover {
+  color: white;
+  font-weight: bold;
+  background: #666600;
+
+  padding: 5px 10px;
+  margin-top: 5px;
+  margin-bottom: 2px;
+}
+
+#contactX2:hover {
+  font-weight: bold;
+  background: white;
+
+  padding: 5px 10px;
+  margin-top: 5px;
+  margin-bottom: 2px;
+}
+
+#contactX4:hover {
+  font-weight: bold;
+  background: white;
+  padding: 5px 10px;
+  margin-top: 5px;
+  margin-bottom: 2px;
+}
+
+/*Al-Qur'an Text Nav Non-hover*/
+#alquranX1 {
+  font-size: 25px;
+  font-family: "Rancho", cursive;
+}
+
+#alquranX1:hover {
+  color: white;
+  font-weight: bold;
+  background: #666600;
+
+  padding: 5px 10px;
+  margin-top: 5px;
+  margin-bottom: 2px;
+}
+
+#alquranX2:hover {
+  font-weight: bold;
+  background: white;
+
+  padding: 5px 10px;
+  margin-top: 5px;
+  margin-bottom: 2px;
+}
+
+#alquranX3:hover {
+  color: white;
+  font-weight: bold;
+  background: #0099ff;
+
+  padding: 5px 10px;
+  margin-top: 5px;
+  margin-bottom: 2px;
+}
