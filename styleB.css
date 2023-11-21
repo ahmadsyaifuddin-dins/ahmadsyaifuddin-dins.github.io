@@ -410,16 +410,7 @@ html::before {
 }
 
 
-/*NavBar Game Icon*/
-#games {
-  color: purple;
-  font-weight: bold;
-  background: #FFC107;
 
-  padding: 5px 10px;
-  margin-top: 5px;
-  margin-bottom: 2px;
-}
 
 /*Text of Name the Games*/
 #gamesH5 {
@@ -558,19 +549,6 @@ html::before {
   background-size: cover;
   position: relative;
 }
-
-
-/*Al-Qur'an Text Nav Hover*/
-#alquran {
-  font-weight: bold;
-  background: white;
-  color: black;
-
-  padding: 5px 10px;
-  margin-top: 5px;
-  margin-bottom: 2px;
-}
-
 
 
 
