@@ -1,6 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Rancho&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
 
 /*
   [  N o t e s ! ! !  ]
@@ -22,18 +21,12 @@
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
-
 }
-
-
 
 body {
   overflow-x: hidden;
   min-height: 100vh;
-
 }
-
-
 
 /*Info Definisi Web Hover*/
 .infowebHover button:hover {
@@ -42,7 +35,7 @@ body {
 
 /*Text Nav Dropdown Projects and Games in Homepage*/
 .family {
-  font-family: 'Rancho', cursive;
+  font-family: "Rancho", cursive;
 }
 
 /*JS Parallax*/
@@ -56,7 +49,7 @@ body {
 }
 
 .parallax::before {
-  content: '';
+  content: "";
   position: absolute;
   bottom: 0;
   left: 0;
@@ -82,20 +75,17 @@ body {
   font-size: 10vw;
   text-align: center;
   line-height: 0.55em;
-  font-family: 'Rancho', cursive;
-
-
+  font-family: "Rancho", cursive;
 }
 
 .parallax #text span {
-  font-size: 0.20em;
+  font-size: 0.2em;
   letter-spacing: 2px;
   font-weight: 400;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 /*End JS Parallax*/
-
 
 /* Bird images media query viewport for mobile */
 @media (min-width: 320px) and (max-width: 767px) {
@@ -109,12 +99,11 @@ body {
     max-width: 100%;
     height: auto;
     margin-top: 150px;
-
   }
 }
 
 #btn {
-  font-family: 'rancho', system-ui;
+  font-family: "rancho", system-ui;
   text-decoration: none;
   display: inline-block;
   padding: 8px 30px;
@@ -128,18 +117,29 @@ body {
 }
 
 #btn:hover {
-  background: #30ACC4;
+  background: #30acc4;
   color: white;
 }
 
 .sec {
-
   position: relative;
   padding: 10px;
-  background-image: linear-gradient(to bottom, #038184, #009797, #00ada9, #00c4ba, #00dbca, #00dad0, #00d8d6, #00d7db, #00bcd0, #00a2c1, #0287ad, #216e96);
+  background-image: linear-gradient(
+    to bottom,
+    #038184,
+    #009797,
+    #00ada9,
+    #00c4ba,
+    #00dbca,
+    #00dad0,
+    #00d8d6,
+    #00d7db,
+    #00bcd0,
+    #00a2c1,
+    #0287ad,
+    #216e96
+  );
 }
-
-
 
 .sec h1 {
   text-align: center;
@@ -155,8 +155,6 @@ body {
   text-shadow: 10px 10px 15px black;
 }
 
-
-
 /*Background Home Page*/
 .index {
   background-image: url(img/home/underwater.jpg);
@@ -164,26 +162,20 @@ body {
   background-position: center;
 }
 
-
-
 /*Jumbotron on Home Page*/
 .jumbotron {
   width: 100%;
   padding-bottom: 2rem;
   margin-bottom: 0rem;
-
 }
-
 
 /*Text On My About*/
 .text-caveat {
-  font-family: system-ui, 'Akaya Kanadaka', cursive, fangsong;
+  font-family: system-ui, "Akaya Kanadaka", cursive, fangsong;
   font-size: 18.5px;
   text-shadow: 10px 10px 15px black;
   color: white;
 }
-
-
 
 /*Bubbles Animation img */
 .bubbles img {
@@ -197,77 +189,59 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-around;
-
 }
-
 
 @keyframes bubble {
   0% {
     transform: translateY(0);
     opacity: 0;
-
   }
 
   50% {
     opacity: 1;
-
   }
 
   70% {
     opacity: 1;
-
   }
 
   100% {
     transform: translateY(-80vh);
     opacity: 0;
-
   }
-
 }
 
 .bubbles img:nth-child(1) {
   animation-delay: 2s;
   width: 25px;
-
 }
 
 .bubbles img:nth-child(2) {
   animation-delay: 1s;
   width: 50px;
-
 }
 
 .bubbles img:nth-child(3) {
   animation-delay: 3s;
   width: 25px;
-
 }
 
 .bubbles img:nth-child(4) {
   animation-delay: 4.5s;
   width: 70px;
-
 }
 
 .bubbles img:nth-child(5) {
   animation-delay: 3s;
-
 }
 
 .bubbles img:nth-child(6) {
   animation-delay: 6s;
-
 }
 
 .bubbles img:nth-child(7) {
   animation-delay: 7s;
-
 }
-
-
-
-
 
 /*Background Game Made By Me Page*/
 :root {
@@ -292,7 +266,6 @@ body {
   }
 }
 
-
 html {
   height: 100vh;
 }
@@ -308,50 +281,137 @@ html::before {
   pointer-events: none;
   filter: brightness(1.125);
   animation: outrun 0.6s linear infinite;
-  --lgDepth: url("data:image/svg+xml;utf8,<svg width=\"1808\" height=\"230\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M904 -46 L-3616 230 M904 -46 L-3254.4 230 M904 -46 L-2892.8 230 M904 -46 L-2531.2000000000003 230 M904 -46 L-2169.6000000000004 230 M904 -46 L-1808 230 M904 -46 L-1446.4 230 M904 -46 L-1084.8000000000002 230 M904 -46 L-723.2 230 M904 -46 L-361.6 230 M904 -46 L0 230 M904 -46 L361.6 230 M904 -46 L723.2 230 M904 -46 L1084.8000000000002 230 M904 -46 L1446.4 230 M904 -46 L1808 230 M904 -46 L2169.6000000000004 230 M904 -46 L2531.2000000000003 230 M904 -46 L2892.8 230 M904 -46 L3254.4 230 M904 -46 L3616 230 M904 -46 L3977.6000000000004 230 M904 -46 L4339.200000000001 230 M904 -46 L4700.8 230 M904 -46 L5062.400000000001 230 M904 -46 L5424 230\" stroke=\"cornflowerblue\" stroke-width=\"2\" vector-effect=\"non-scaling-stroke\" /></svg>") left bottom / 100% 40% no-repeat;
+  --lgDepth: url('data:image/svg+xml;utf8,<svg width="1808" height="230" xmlns="http://www.w3.org/2000/svg"><path d="M904 -46 L-3616 230 M904 -46 L-3254.4 230 M904 -46 L-2892.8 230 M904 -46 L-2531.2000000000003 230 M904 -46 L-2169.6000000000004 230 M904 -46 L-1808 230 M904 -46 L-1446.4 230 M904 -46 L-1084.8000000000002 230 M904 -46 L-723.2 230 M904 -46 L-361.6 230 M904 -46 L0 230 M904 -46 L361.6 230 M904 -46 L723.2 230 M904 -46 L1084.8000000000002 230 M904 -46 L1446.4 230 M904 -46 L1808 230 M904 -46 L2169.6000000000004 230 M904 -46 L2531.2000000000003 230 M904 -46 L2892.8 230 M904 -46 L3254.4 230 M904 -46 L3616 230 M904 -46 L3977.6000000000004 230 M904 -46 L4339.200000000001 230 M904 -46 L4700.8 230 M904 -46 L5062.400000000001 230 M904 -46 L5424 230" stroke="cornflowerblue" stroke-width="2" vector-effect="non-scaling-stroke" /></svg>')
+    left bottom / 100% 40% no-repeat;
   --outrun: 0;
   --pos: var(--outrun, 0);
   --distance: 0.5%;
   --hor: 60%;
-  --l0: var(--hor) + 0 * 0 * var(--distance) + (((0 + 1) * (0 + 1) * var(--distance) - 0 * 0 * var(--distance)) * var(--pos));
-  --l1: var(--hor) + 1 * 1 * var(--distance) + (((1 + 1) * (1 + 1) * var(--distance) - 1 * 1 * var(--distance)) * var(--pos));
-  --l2: var(--hor) + 2 * 2 * var(--distance) + (((2 + 1) * (2 + 1) * var(--distance) - 2 * 2 * var(--distance)) * var(--pos));
-  --l3: var(--hor) + 3 * 3 * var(--distance) + (((3 + 1) * (3 + 1) * var(--distance) - 3 * 3 * var(--distance)) * var(--pos));
-  --l4: var(--hor) + 4 * 4 * var(--distance) + (((4 + 1) * (4 + 1) * var(--distance) - 4 * 4 * var(--distance)) * var(--pos));
-  --l5: var(--hor) + 5 * 5 * var(--distance) + (((5 + 1) * (5 + 1) * var(--distance) - 5 * 5 * var(--distance)) * var(--pos));
-  --l6: var(--hor) + 6 * 6 * var(--distance) + (((6 + 1) * (6 + 1) * var(--distance) - 6 * 6 * var(--distance)) * var(--pos));
-  --l7: var(--hor) + 7 * 7 * var(--distance) + (((7 + 1) * (7 + 1) * var(--distance) - 7 * 7 * var(--distance)) * var(--pos));
-  --l8: var(--hor) + 8 * 8 * var(--distance) + (((8 + 1) * (8 + 1) * var(--distance) - 8 * 8 * var(--distance)) * var(--pos));
-  --l9: var(--hor) + 9 * 9 * var(--distance) + (((9 + 1) * (9 + 1) * var(--distance) - 9 * 9 * var(--distance)) * var(--pos));
-  --lgh: linear-gradient(transparent 0px var(--hor), var(--c1) var(--hor) calc(var(--hor) + 2px), transparent calc(var(--hor) + 2px));
-  --lg0: linear-gradient(transparent 0px calc(var(--l0)), var(--c1) calc(var(--l0)) calc(var(--l0) + 2px), transparent calc(var(--l0) + 2px));
-  --lg1: linear-gradient(transparent 0px calc(var(--l1)), var(--c1) calc(var(--l1)) calc(var(--l1) + 2px), transparent calc(var(--l1) + 2px));
-  --lg2: linear-gradient(transparent 0px calc(var(--l2)), var(--c1) calc(var(--l2)) calc(var(--l2) + 2px), transparent calc(var(--l2) + 2px));
-  --lg3: linear-gradient(transparent 0px calc(var(--l3)), var(--c1) calc(var(--l3)) calc(var(--l3) + 2px), transparent calc(var(--l3) + 2px));
-  --lg4: linear-gradient(transparent 0px calc(var(--l4)), var(--c1) calc(var(--l4)) calc(var(--l4) + 2px), transparent calc(var(--l4) + 2px));
-  --lg5: linear-gradient(transparent 0px calc(var(--l5)), var(--c1) calc(var(--l5)) calc(var(--l5) + 2px), transparent calc(var(--l5) + 2px));
-  --lg6: linear-gradient(transparent 0px calc(var(--l6)), var(--c1) calc(var(--l6)) calc(var(--l6) + 2px), transparent calc(var(--l6) + 2px));
-  --lg7: linear-gradient(transparent 0px calc(var(--l7)), var(--c1) calc(var(--l7)) calc(var(--l7) + 2px), transparent calc(var(--l7) + 2px));
-  --lg8: linear-gradient(transparent 0px calc(var(--l8)), var(--c1) calc(var(--l8)) calc(var(--l8) + 2px), transparent calc(var(--l8) + 2px));
-  --lg9: linear-gradient(transparent 0px calc(var(--l9)), var(--c1) calc(var(--l9)) calc(var(--l9) + 2px), transparent calc(var(--l9) + 2px));
-  background: var(--lgDepth),
-    var(--lgh),
-    var(--lg0),
-    var(--lg1),
-    var(--lg2),
-    var(--lg3),
-    var(--lg4),
-    var(--lg5),
-    var(--lg6),
-    var(--lg7),
-    var(--lg8),
-    var(--lg9),
-    var(--mtn) center 60% / min(75vh, 75vw) no-repeat,
+  --l0: var(--hor) + 0 * 0 * var(--distance) +
+    (
+      ((0 + 1) * (0 + 1) * var(--distance) - 0 * 0 * var(--distance)) *
+        var(--pos)
+    );
+  --l1: var(--hor) + 1 * 1 * var(--distance) +
+    (
+      ((1 + 1) * (1 + 1) * var(--distance) - 1 * 1 * var(--distance)) *
+        var(--pos)
+    );
+  --l2: var(--hor) + 2 * 2 * var(--distance) +
+    (
+      ((2 + 1) * (2 + 1) * var(--distance) - 2 * 2 * var(--distance)) *
+        var(--pos)
+    );
+  --l3: var(--hor) + 3 * 3 * var(--distance) +
+    (
+      ((3 + 1) * (3 + 1) * var(--distance) - 3 * 3 * var(--distance)) *
+        var(--pos)
+    );
+  --l4: var(--hor) + 4 * 4 * var(--distance) +
+    (
+      ((4 + 1) * (4 + 1) * var(--distance) - 4 * 4 * var(--distance)) *
+        var(--pos)
+    );
+  --l5: var(--hor) + 5 * 5 * var(--distance) +
+    (
+      ((5 + 1) * (5 + 1) * var(--distance) - 5 * 5 * var(--distance)) *
+        var(--pos)
+    );
+  --l6: var(--hor) + 6 * 6 * var(--distance) +
+    (
+      ((6 + 1) * (6 + 1) * var(--distance) - 6 * 6 * var(--distance)) *
+        var(--pos)
+    );
+  --l7: var(--hor) + 7 * 7 * var(--distance) +
+    (
+      ((7 + 1) * (7 + 1) * var(--distance) - 7 * 7 * var(--distance)) *
+        var(--pos)
+    );
+  --l8: var(--hor) + 8 * 8 * var(--distance) +
+    (
+      ((8 + 1) * (8 + 1) * var(--distance) - 8 * 8 * var(--distance)) *
+        var(--pos)
+    );
+  --l9: var(--hor) + 9 * 9 * var(--distance) +
+    (
+      ((9 + 1) * (9 + 1) * var(--distance) - 9 * 9 * var(--distance)) *
+        var(--pos)
+    );
+  --lgh: linear-gradient(
+    transparent 0px var(--hor),
+    var(--c1) var(--hor) calc(var(--hor) + 2px),
+    transparent calc(var(--hor) + 2px)
+  );
+  --lg0: linear-gradient(
+    transparent 0px calc(var(--l0)),
+    var(--c1) calc(var(--l0)) calc(var(--l0) + 2px),
+    transparent calc(var(--l0) + 2px)
+  );
+  --lg1: linear-gradient(
+    transparent 0px calc(var(--l1)),
+    var(--c1) calc(var(--l1)) calc(var(--l1) + 2px),
+    transparent calc(var(--l1) + 2px)
+  );
+  --lg2: linear-gradient(
+    transparent 0px calc(var(--l2)),
+    var(--c1) calc(var(--l2)) calc(var(--l2) + 2px),
+    transparent calc(var(--l2) + 2px)
+  );
+  --lg3: linear-gradient(
+    transparent 0px calc(var(--l3)),
+    var(--c1) calc(var(--l3)) calc(var(--l3) + 2px),
+    transparent calc(var(--l3) + 2px)
+  );
+  --lg4: linear-gradient(
+    transparent 0px calc(var(--l4)),
+    var(--c1) calc(var(--l4)) calc(var(--l4) + 2px),
+    transparent calc(var(--l4) + 2px)
+  );
+  --lg5: linear-gradient(
+    transparent 0px calc(var(--l5)),
+    var(--c1) calc(var(--l5)) calc(var(--l5) + 2px),
+    transparent calc(var(--l5) + 2px)
+  );
+  --lg6: linear-gradient(
+    transparent 0px calc(var(--l6)),
+    var(--c1) calc(var(--l6)) calc(var(--l6) + 2px),
+    transparent calc(var(--l6) + 2px)
+  );
+  --lg7: linear-gradient(
+    transparent 0px calc(var(--l7)),
+    var(--c1) calc(var(--l7)) calc(var(--l7) + 2px),
+    transparent calc(var(--l7) + 2px)
+  );
+  --lg8: linear-gradient(
+    transparent 0px calc(var(--l8)),
+    var(--c1) calc(var(--l8)) calc(var(--l8) + 2px),
+    transparent calc(var(--l8) + 2px)
+  );
+  --lg9: linear-gradient(
+    transparent 0px calc(var(--l9)),
+    var(--c1) calc(var(--l9)) calc(var(--l9) + 2px),
+    transparent calc(var(--l9) + 2px)
+  );
+  background: var(--lgDepth), var(--lgh), var(--lg0), var(--lg1), var(--lg2),
+    var(--lg3), var(--lg4), var(--lg5), var(--lg6), var(--lg7), var(--lg8),
+    var(--lg9), var(--mtn) center 60% / min(75vh, 75vw) no-repeat,
     var(--mtn2) center 60% / min(75vh, 75vw) repeat-x,
-    linear-gradient(transparent 20%, var(--c5) 60%, var(--c3) 60% 70%, hsla(var(--c2hsl), 0.75), transparent 150%),
+    linear-gradient(
+      transparent 20%,
+      var(--c5) 60%,
+      var(--c3) 60% 70%,
+      hsla(var(--c2hsl), 0.75),
+      transparent 150%
+    ),
     repeating-linear-gradient(90deg, transparent 0px 2px, var(--c3) 3px 4px),
-    radial-gradient(circle at center, transparent min(45vh, 45vw), hsla(var(--c2hsl), 0.75) min(65vh, 65vw), var(--c3) 120%),
-    linear-gradient(transparent 30vh,
+    radial-gradient(
+      circle at center,
+      transparent min(45vh, 45vw),
+      hsla(var(--c2hsl), 0.75) min(65vh, 65vw),
+      var(--c3) 120%
+    ),
+    linear-gradient(
+      transparent 30vh,
       var(--c5) 30vh 30.2vh,
       transparent 30.2vh 35.2vh,
       var(--c5) 35.2vh 36vh,
@@ -361,11 +421,15 @@ html::before {
       var(--c5) 45.1vh 48.6vh,
       transparent 48.6vh 52.5vh,
       var(--c5) 52.5vh 57.5vh,
-      transparent 57.5vh),
-    radial-gradient(circle at center, var(--c4) min(45vh, 45vw), transparent min(45vh, 45vw)),
+      transparent 57.5vh
+    ),
+    radial-gradient(
+      circle at center,
+      var(--c4) min(45vh, 45vw),
+      transparent min(45vh, 45vw)
+    ),
     linear-gradient(var(--c5) 60%, var(--c3) 60%, var(--c2) 150%);
 }
-
 
 /*Background Games Page diGanti
 .games {
@@ -375,22 +439,19 @@ html::before {
 
 /*Font external Content Games Page Made by me*/
 @font-face {
-  font-family: 'game';
-  src: url('fonts/retrofont.ttf');
+  font-family: "game";
+  src: url("fonts/retrofont.ttf");
 }
 
 .gamesfont {
-  font-family: 'game', system-ui, cursive;
+  font-family: "game", system-ui, cursive;
   font-size: 11px;
 }
-
-
 
 /*Background Games Google Page*/
 .gamesgoogle {
   background-image: url(img/game/41524.jpg);
   color: black;
-
 }
 
 /*Button Link Play Google Games*/
@@ -408,22 +469,17 @@ html::before {
 /*Button Link Play Google Games Hover*/
 .linkgames:hover {
   color: black;
-  border-color: #5D801C;
+  border-color: #5d801c;
   border-top-right-radius: 35px;
   border-bottom-left-radius: 35px;
   border-width: 3px;
 }
-
-
-
 
 /*Text of Name the Games*/
 #gamesH5 {
   color: white;
   font-weight: bold;
 }
-
-
 
 /* Button Neon Color transform */
 .gamesclick a {
@@ -435,22 +491,16 @@ html::before {
   overflow: hidden;
   font-weight: bold;
   text-transform: uppercase;
-  transition: .5s;
+  transition: 0.5s;
   margin-top: 2px;
 }
 
-
 .gamesclick a:hover {
-  transition: all .5s;
-  background: #FFC107;
+  transition: all 0.5s;
+  background: #ffc107;
   color: purple;
-  box-shadow: 0 0 3px #FFC107,
-    0 0 6px #FFC107,
-    0 0 12px #FFC107,
-    0 0 24px #FFC107,
-    0 0 48px #FFC107,
-    0 0 96px #FFC107,
-    0 0 192px #FFC107;
+  box-shadow: 0 0 3px #ffc107, 0 0 6px #ffc107, 0 0 12px #ffc107,
+    0 0 24px #ffc107, 0 0 48px #ffc107, 0 0 96px #ffc107, 0 0 192px #ffc107;
 }
 
 .gamesclick a span {
@@ -463,7 +513,7 @@ html::before {
   left: -100%;
   width: 100%;
   height: 2px;
-  background: linear-gradient(90deg, transparent, #FFC107);
+  background: linear-gradient(90deg, transparent, #ffc107);
   animation: btn-anim1 1s linear infinite;
 }
 
@@ -483,9 +533,9 @@ html::before {
   right: 0;
   width: 2px;
   height: 100%;
-  background: linear-gradient(180deg, transparent, #FFC107);
+  background: linear-gradient(180deg, transparent, #ffc107);
   animation: btn-anim2 1s linear infinite;
-  animation-delay: .25s
+  animation-delay: 0.25s;
 }
 
 @keyframes btn-anim2 {
@@ -504,9 +554,9 @@ html::before {
   right: -100%;
   width: 100%;
   height: 2px;
-  background: linear-gradient(270deg, transparent, #FFC107);
+  background: linear-gradient(270deg, transparent, #ffc107);
   animation: btn-anim3 1s linear infinite;
-  animation-delay: .5s
+  animation-delay: 0.5s;
 }
 
 @keyframes btn-anim3 {
@@ -525,9 +575,9 @@ html::before {
   left: 0;
   width: 2px;
   height: 100%;
-  background: linear-gradient(360deg, transparent, #FFC107);
+  background: linear-gradient(360deg, transparent, #ffc107);
   animation: btn-anim4 1s linear infinite;
-  animation-delay: .75s
+  animation-delay: 0.75s;
 }
 
 @keyframes btn-anim4 {
@@ -541,10 +591,6 @@ html::before {
   }
 }
 
-
-
-
-
 /*Background Al-Qur'an Page*/
 .alquran {
   background-image: url(img/heaven.jpg);
@@ -555,9 +601,6 @@ html::before {
   position: relative;
 }
 
-
-
-
 /*Instagram Border Color*/
 #ig {
   border-color: orange;
@@ -565,7 +608,7 @@ html::before {
 
 /*Instagram Link Text Hover and radius color blue*/
 #ig:hover {
-  background-color: #3498DB;
+  background-color: #3498db;
   font-weight: bold;
   cursor: alias;
   border-top-left-radius: 25px;
@@ -579,7 +622,7 @@ html::before {
 
 /*Gmail Link Text Hover and border radius color bg blue*/
 #gm:hover {
-  background-color: #3498DB;
+  background-color: #3498db;
   font-weight: bold;
   cursor: alias;
   border-top-left-radius: 25px;
@@ -593,13 +636,11 @@ html::before {
 
 /*Github Link Text Hover and border radius color bg blue*/
 #git:hover {
-  background-color: #3498DB;
+  background-color: #3498db;
   font-weight: bold;
   cursor: alias;
   border-top-left-radius: 25px;
   border-bottom-right-radius: 25px;
-
-
 }
 
 /*Tiktok border radius color*/
@@ -607,8 +648,7 @@ html::before {
   border-color: black;
   border-top-right-radius: 25px;
   border-bottom-left-radius: 25px;
-  transition: all .6s;
-
+  transition: all 0.6s;
 }
 
 /*Tiktok Link text hover radius color bg blue*/
@@ -618,18 +658,13 @@ html::before {
   border-bottom-left-radius: 0px;
   border-top-left-radius: 25px;
   border-bottom-right-radius: 25px;
-  background-color: #3498DB;
+  background-color: #3498db;
   font-weight: bold;
   color: black;
   cursor: alias;
-
 }
 
-
-
 .footer {
-  display: flex;
-  justify-content: center;
   text-align: center;
   padding-bottom: 5px;
 }
