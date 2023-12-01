@@ -289,11 +289,15 @@
 
 
 
-    <div class="footer fw-semibold">Copyright © Ahmad Syaifuddin | 2023 All Right Reserved</div>
+    <div class="footer fw-semibold">Copyright © Ahmad Syaifuddin | <span id="year"> </span> All Right Reserved</div>
 
   </section>
 
+  <!-- Get year Dynamic Footer -->
 
+  <script>
+    document.getElementById("year").innerHTML = new Date().getFullYear();
+  </script>
 
 
 
