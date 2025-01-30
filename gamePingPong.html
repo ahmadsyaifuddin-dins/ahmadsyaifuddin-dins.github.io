@@ -250,7 +250,7 @@ button:active {
          <img src="https://dl.dropbox.com/s/vx5k1c8spw8tbkt/ping_pong_logo.png?dl=0" alt="Logo" /> <h3>Ping Pong</h3>
         </div>
         
-        <div id="info"><b>&#9432</b> First player to score 10 points wins .</div>
+        <div id="info"><b>&#9432</b>Capai 5 Poin dan dapatkan Voucher.</div>
         
         <div class="level">
         
@@ -269,7 +269,6 @@ button:active {
     <div id="status">
         <center>
        <div id="result" >
-         You Win   
         </div>     
         </center>
         <center>
@@ -555,9 +554,9 @@ function game() {
         lose.volume=1;
         lose.play()   ;          
     }
-    else if(user.point == 8)
+    else if(user.point == 5)
     {
-        change('You won');
+        change('You Won (Your Voucher : NEWCUSTOMER');
         win.volume=1;
         win.play();
     }    
